@@ -13,6 +13,7 @@ body{
     background-color: #f5ebe0;
 }
 
+/* navbar */
 .btn-color{
     color: white;
     background-color: #e85d04;
@@ -23,6 +24,8 @@ body{
     margin-bottom: 4rem;
 }
 
+
+/* main */
 .hero{
     margin-top: 50px;
 }
