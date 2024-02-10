@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #f5ebe0 !important;
+    color: black !important;
+}
+
+.btn-color{
+    color: white !important;
+    background-color: #e85d04 !important;
+}
+
+.button-create{
+    width: auto;
+    margin-bottom: 4rem;
+}
+
+.hero{
+    margin-top: 50px;
+}
+
+.title{
+    margin-top: 5rem;
+    font-weight: 900;
+    font-size: 5rem;
+}
+
+.title-p{
+    font-weight: 300;
+    color: grey;
+    font-size: 1.2rem;
+    padding-top: 10px;
+}
+
+.btn-hero{
+    padding-top: 3%;
+}
+
+.customers-hero{
+    font-weight: 200;
+}
