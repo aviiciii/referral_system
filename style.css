@@ -9,14 +9,13 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif !important;
-    background-color: #f5ebe0 !important;
-    color: black !important;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5ebe0;
 }
 
 .btn-color{
-    color: white !important;
-    background-color: #e85d04 !important;
+    color: white;
+    background-color: #e85d04;
 }
 
 .button-create{
@@ -47,4 +46,48 @@ body{
 
 .customers-hero{
     font-weight: 200;
+}
+
+/* form */
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+#msform fieldset {
+    background: #f5ebe0;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+    position: relative;
+}
+
+/*inputs*/
+#msform input, #msform textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f5ebe0;
+    font-size: 1.2rem;
+}
+
+/*buttons*/
+#msform .action-button {
+    width: 100px;
+    background: #e85d04;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
 }
